@@ -1,1 +1,1 @@
-# WorldHappiness
+# World Happiness
