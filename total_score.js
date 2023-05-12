@@ -30,7 +30,7 @@ let pad=Math.floor(w/12);
 let mouseover = (d,i)=>{
 console.log(cnt_lst);
 console.log(cnt_lst[cnt_lst.length-1]);
-toolTip.style("visibility","visible").html(i[0]+"<br>" + i[1]).style("background-color","#ffffe0").style("color","darkblue").style("border","1px solid darkblue").style("width",0.18*w+"px").style("text-align","center").style("display","block").style("top",0.55*h_s+"px").style("left",i[0]==cnt_lst[cnt_lst.length-2]?0.45*(w_s-w)+xScale(i[0])-25+"px":(i[0]==cnt_lst[cnt_lst.length-1]?0.45*(w_s-w)+xScale(i[0])-20+"px":0.45*(w_s-w)+xScale(i[0])+"px")).style("font",`${h/40}px arial`);}
+toolTip.style("visibility","visible").html(i[0]+"<br>" + i[1]).style("background-color","#ffffe0").style("color","darkblue").style("border","1px solid darkblue").style("width",0.18*w+"px").style("text-align","center").style("display","block").style("top",0.55*h+"px").style("left",i[0]==cnt_lst[cnt_lst.length-2]?0.45*(w_s-w)+xScale(i[0])-25+"px":(i[0]==cnt_lst[cnt_lst.length-1]?0.45*(w_s-w)+xScale(i[0])-20+"px":0.45*(w_s-w)+xScale(i[0])+"px")).style("font",`${h/40}px arial`);}
 
 
 function colorAttr(c){
