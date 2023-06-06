@@ -112,7 +112,7 @@ li {
   background-color: papayawhip;
   border: 2px darkred solid;
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1450px){
   #canvas_c {
     width: 600px;
     height: 800px;
