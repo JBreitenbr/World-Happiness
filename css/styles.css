@@ -230,7 +230,7 @@ li {
   }
 
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1450px){
   #canvas_c1,#canvas_c2,#canvas_c3,#canvas_c4,#canvas_c5,#canvas_c6,#canvas_c7 {
     width: 600px;
     height: 60px;
